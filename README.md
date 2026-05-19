@@ -13,3 +13,6 @@ This project is in a design phase, though we have some code nearly ready. At the
 from jupymol import pymol, pymol_3d_scatter, pymol_3d_line
 ```
 and then you can use pymol(), %pymol and %%pymol in your Jupyter notebook.
+
+The idea of this project is to connect many sources of protein ctructure diversity into an easy to use whole:
+![example color terminal output](doc/images/manyprot_idea.png)
