@@ -44,3 +44,6 @@ The idea is to keep things really simple, like running a script in some mamba/co
 
 But we can also do things like running a job on remote PBS-controlled meta-cluster or using web-like remote procedure calls.
 
+# How Noise Is All You Need relates to Multiprot
+We will intentionally keep it separate, in a different repository, being just one of many modules.
+
