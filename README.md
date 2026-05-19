@@ -39,3 +39,8 @@ Ways to get different conformers of a protein:
 
 Module can be capable of multiple operations.
 
+# How to connect new module
+The idea is to keep things really simple, like running a script in some mamba/conda environment which would take fasta file and generate many pdb files.
+
+But we can also do things like running a job on remote PBS-controlled meta-cluster or using web-like remote procedure calls.
+
