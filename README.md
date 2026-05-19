@@ -12,7 +12,10 @@ This project is in a design phase, though we have some code nearly ready. At the
 %load_ext jupymol
 from jupymol import pymol, pymol_3d_scatter, pymol_3d_line
 ```
-and then you can use pymol(), %pymol and %%pymol in your Jupyter notebook.
+and then you can use pymol(), %pymol and %%pymol in your Jupyter notebook. To see documentation, just run a cell like:
+```
+help pymol_3d_scatter
+```
 
 The idea of this project is to connect many sources of protein ctructure diversity into an easy to use whole:
 <img src="doc/images/manyprot_idea.png" width="500">
