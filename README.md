@@ -24,6 +24,15 @@ Possible examples are the boxes in the picture above, of several types:
 * central module, being e.g. Jupyter notebook or web application, allowing user to control the rest
 
 ## Representations
+Different ways to store the structure:
+* .pdb file
+* XYZ atom coordinates in pytorch tensor
 
 ## Operations
+Ways to get different conformers of a protein:
+* download from PDB
+* predict multiple structures (e.g. via diffusion in AF3-alikes)
+* drive structures to underexplored regions, e.g. by varions disruptions (noise in our ESM-based system, special layers in ConforNets, MSA subsampling) or by MD or coarse-grained simulations.
+
+Module can be capable of multiple operations.
 
