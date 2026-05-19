@@ -17,3 +17,13 @@ and then you can use pymol(), %pymol and %%pymol in your Jupyter notebook.
 The idea of this project is to connect many sources of protein ctructure diversity into an easy to use whole:
 <img src="doc/images/manyprot_idea.png" width="500">
 
+## Modules
+Possible examples are the boxes in the picture above, of several types:
+* protein diversity sources, generating structures (maybe on request, with specific properties, e.g. with certain values of some latent variables, interpolating structures etc.)
+* visualization modules, showing some proteins and accompanying graphics (like point cloud for one atom in many more structures)
+* central module, being e.g. Jupyter notebook or web application, allowing user to control the rest
+
+## Representations
+
+## Operations
+
